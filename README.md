@@ -17,11 +17,14 @@ This repository contains the code necessary to train, test, and demo the SVM Mod
 
 ## Example
 1. Real Image
+
 ![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Real%20Image.PNG)
 
 2. Spoof Image
+
 ![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Spoof%20Image.PNG)
 
 3. (a) Sdim  in real images forms a curved pattern following the face (b) Sdim  in spoof images forms flat patterns (c) Differences between spoof and real vector data.
+
 ![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Data%20Vektor.PNG)
 
