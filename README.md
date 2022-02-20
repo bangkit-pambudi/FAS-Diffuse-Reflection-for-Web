@@ -3,7 +3,7 @@
 ## Paper
 
 ## Overview
-Spoofing detection plays an important role of biometrics system, especially if the system uses face modality. Here, we proposed an efficient face presentation attack detection (PAD) algorithm that requires minimal hardware and low compute, making it suitable for servers-side. Utilizing one monocular visible light camera, the algorithm takes two facial photos, one of which is taken with flash and other without flash. The proposed descriptor is constructed by leveraging diffuse reflection that will spread throughout the face region and will form the 3D structure of a subject’s face. The structure pattern will be classified with SVM to distinguish between real and spoof.
+This repository contains the code necessary to train, test, and demo the SVM Model for Face Anti Spoofing based on Diffuse Reflection. There are notebooks to Train, Test, and Demo for Web or Desktop Applications. You can install all the required packages using pip: `pip install -r requirements.txt`
 
 ## Model
 [SVM Model](https://drive.google.com/drive/u/0/folders/1zE7ar6ZP1CSY2YRb76JWwZ4LEUj5yiG5)
@@ -12,4 +12,16 @@ Spoofing detection plays an important role of biometrics system, especially if t
 [SpecDiff Dataset](https://github.com/Akinori-F-Ebihara/SpecDiff_in_house_database_sample)
 
 ## How to Use
-1. Web Application: Run notebook `Web_Anti_Spoofing.ipynb` in  
+1. [Web Application](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/tree/main/Demo%20Application/Web%20Application) : Run notebook `Web_Anti_Spoofing.ipynb` 
+2. [Spyder](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/tree/main/Demo%20Application/Web%20Application) : Run `test5.py`
+
+## Example
+1. Real Image
+![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Real%20Image.PNG)
+
+2. Spoof Image
+![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Spoof%20Image.PNG)
+
+3. (a) Sdim  in real images forms a curved pattern following the face (b) Sdim  in spoof images forms flat patterns (c) Differences between spoof and real vector data.
+![tag alt](https://github.com/bangkit-pambudi/FAS-Diffuse-Reflection-for-Web/blob/main/image/Data%20Vektor.PNG)
+
